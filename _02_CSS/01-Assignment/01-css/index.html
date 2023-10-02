@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS Types</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Internal CSS -->
+    <!-- Note: Internal CSS and External CSS has same Level Priority but they  can cascade to each other that means if it follow top-down approch -->
+    <style>
+
+        .div-two{
+            color: blue;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="div-one">
+        <h1>Div One is styled Using External CSS</h1>
+    </div>
+
+    <div class="div-two">
+        <h1>Div Two is styled Using Inernal CSS</h1>
+    </div>
+
+    <!-- Inline CSS -->
+    <!-- Inline CSS has more Priority than External and Internal CSS -->
+    <div class="div-three" style="color: green;">
+        <h1>Div Three is styled Using Inline CSS</h1>
+    </div>
+</body>
+</html>

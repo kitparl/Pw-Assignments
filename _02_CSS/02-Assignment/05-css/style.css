@@ -1,0 +1,27 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #212121;
+    color: #ffffffde;
+    font-weight: 400;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px;
+}
+
+img{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+
+.details{
+    font-family: 'Oswald', sans-serif;
+    padding: 100px 250px;
+    font-weight: 400;
+}

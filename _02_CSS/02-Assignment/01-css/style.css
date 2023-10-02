@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.nav-container{
+    background-color: rgb(56, 147, 250);
+}
+
+.nav-items{
+    padding: 20px;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+}
+
+a{
+    color: #ffffff;
+    font-size: large;
+}
+
+a:hover{
+    color: rgb(215, 215, 215);
+}

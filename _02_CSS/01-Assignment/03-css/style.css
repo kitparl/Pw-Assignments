@@ -1,0 +1,77 @@
+
+/* Define a custom color palette */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #e74c3c;
+    --background-color: #f2f2f2;
+    --input-background: #ffffff;
+    --input-border: #bdc3c7;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the form container */
+.form-container {
+    /* Apply opacity */
+    background-color: rgba(255, 255, 255, 0.8);
+
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style form headings */
+h1, h2 {
+    color: var(--primary-color);
+}
+
+/* Style form labels */
+label {
+    display: inline;
+    margin-bottom: 8px;
+    color: var(--primary-color);
+}
+
+
+
+/* Style text input fields */
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--input-border);
+    background-color: var(--input-background);
+    border-radius: 5px;
+}
+
+/* Style radio buttons and checkboxes */
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the reset button */
+input[type="reset"] {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
