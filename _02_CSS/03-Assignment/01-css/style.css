@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.wraper-div{
+    border: 1px solid #212121;
+    position: relative;
+    width: 110px;
+    height: 110px;
+    margin: 40vh auto;
+}
+
+.wraper-div div{
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    text-align: center;
+    position: absolute;
+}
+
+.A{
+    left: 30px;
+    top: 30px;
+    z-index: 1;
+}
+
+.C{
+    right: 0;
+    top: 0;
+}
+
+.D{
+    left: 0;
+    bottom: 0;
+}
+
+.E{
+    right: 0;
+    bottom: 0;
+}

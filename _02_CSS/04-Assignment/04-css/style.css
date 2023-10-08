@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #F4F2FD;
+}
+
+.card-wraper{
+    padding: 32px 48px;
+    background-color: #F4F2FD;
+    display: inline-flex;
+    gap: 40px;
+}
+
+.card{
+    width: 262px;
+    height: 363px;
+    background-color: #ffffff;
+    padding: 36px 32px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    color: #202842;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 32px;
+}
+
+p,li, .btn{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 36px;
+}
+
+.card-btn{
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    padding-block: 3px;
+}
+
+.btn{
+    margin-top: 10px;
+    background-color: #202842;
+    color: #ffffff;
+    padding: 8px 24px 8px 24px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.card-recomended{
+    width: 262px;
+    height: 363px;
+    background-color:#202842;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-recomended{
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #202842;
+    padding: 8px 24px 8px 24px;
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+}
