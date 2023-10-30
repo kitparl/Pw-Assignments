@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+nav{
+    background-color: #212121;
+    color: #ffffffde;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+@media screen and (max-width: 768px){
+
+    nav{
+        background-color: #757575;
+    }
+
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li{
+        margin-block-end: 1.2em;
+    }
+    
+}

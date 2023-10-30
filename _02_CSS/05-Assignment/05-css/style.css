@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center; /* Default horizontal alignment for all grid items */
+  }
+
+  .grid-item {
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid blue;
+  }
+
+  .item2 {
+    justify-self: end; /* Override the default alignment for this specific item */
+  }

@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container{
+    margin: 100px auto;
+    border: 2px solid black;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px 0 20px 20px;
+}
+
+.box{
+    width: 100px;
+    padding: 20px;
+    background-color: rgb(202, 201, 201);
+    border-radius: 10px;
+}
+
+.container :nth-child(odd){
+    background-color: rgb(81, 81, 81);
+    color: #ffffff;
+}
+
+.box1{
+    order: 1;
+}
+
+.box2{
+    order: 2;
+}
+
+.box3{
+    order: -1;
+}
