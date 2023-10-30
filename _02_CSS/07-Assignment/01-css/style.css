@@ -1,0 +1,48 @@
+/* solution B.a */
+nav a{
+    color: red;
+}
+
+/* solution B.b */
+nav > h2{
+    background-color: blueviolet;
+    color: #ffffff;
+}
+
+/* solution B.c */
+div + p {
+    color: red;
+}
+
+/* solution C.a */
+a[href] {
+    color: red;
+    text-decoration: none;
+}
+
+/* solution C.b */
+a[class="active"]{
+    color: blue;
+    text-decoration: underline;
+}
+
+/* solution C.c */
+a[target="_self"]{
+    background-color: yellow;
+}
+
+/* solution D.a */
+p:last-child::after{
+    content: "...";
+}
+
+/* solution D.b */
+li::marker{
+    color:green
+}
+
+/* solution D.c */
+p:nth-child(even)::first-letter{
+    font-size: 2em;
+    color: green;
+}
